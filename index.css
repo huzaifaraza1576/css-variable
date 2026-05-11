@@ -1,4 +1,19 @@
-:root {
-  --primary-color: rgb(9, 247, 61);
-  --secondary-color: #6aff00;
-  --danger-color: rgb(0, 4, 255);}
+@import url('./style/index.css');
+
+.container {
+  display: flex;
+}
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: var(--primary-color);
+  margin-right: 10px;
+  border: 1px solid red;
+  box-shadow: 1px 4px var(--primary-color);
+}
+ .last-box {
+    --primary-color: rgb(15, 187, 24);
+    background: var(--primary-color);
+ }
